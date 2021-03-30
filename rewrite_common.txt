@@ -356,7 +356,6 @@ hostname = api.m.jd.com,trade-acs.m.taobao.com,api.weibo.cn,mapi.weibo.com,wbapp
 ^https?:\/\/m.+\.china\.com\.cn\/statics\/sdmobile\/js\/mobile\.advert\.js url reject-200
 ^https?:\/\/m.+\.china\.com\.cn\/statics\/sdmobile\/js\/mobileshare\.js url reject-200
 ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads url reject-200
-^https?:\/\/player\.hoge\.cn\/advertisement\.swf url reject-200
 ^https?:\/\/ress\.dxpmedia\.com\/appicast\/ url reject-200
 ^https?:\/\/s3\.pstatp\.com\/inapp\/TTAdblock\.css url reject-200
 ^https?:\/\/sdk\.99shiji\.com\/ad\/ url reject-200
