@@ -4,7 +4,11 @@ HOST-SUFFIX,doubleclick.com,REJECT
 HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,mobileads.google.com,REJECT
 HOST-SUFFIX,pagead.google.com,REJECT
+HOST-SUFFIX,googleadservices.com,REJECT
 HOST-SUFFIX,ehg-youtube.hitbox.com,REJECT
+HOST,adservice.google.com,REJECT
+HOST,ads.youtube.com,REJECT
+HOST,ad.youtube.com,REJECT
 HOST,blzddist1-a.akamaihd.net,DIRECT
 HOST,cdn.angruo.com,DIRECT
 HOST,download.jetbrains.com,DIRECT
