@@ -35,10 +35,10 @@ hostname = api.m.jd.com,trade-acs.m.taobao.com,api.weibo.cn,mapi.weibo.com,wbapp
 ^https?:\/\/cnzz\.com url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/background.png?$2ogtre5vp0.bkt.clouddn.com$3
 
 # Youtube
-^(https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=[A-Z])(&.+) url 302 $1$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/.*(&oad|ptracking) url reject-200
+^(https?:\/\/[\w-]+\.googlevideo\.com\/.+)(&ctier=[A-Z])(&.+) url 302 $1$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/.*(ptracking|&oad) url reject-200
 ^https?:\/\/.+\.googleapis\.com\/(adsmeasurement|.+ad_break) url reject-200
-^https?:\/\/.+\.youtube\.com\/(get_midroll|pagead|ptracking|ads\/|pcs\/.+&ad_cpn) url reject-200
+^https?:\/\/.+\.youtube\.com\/(ptracking|get_midroll|pagead\/|ads\/|pcs\/.+&ad_cpn) url reject-200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/(qoe\?adcontext|watchtime\?adformat) url reject-200
 ^https?:\/\/pagead[0-9]*\.googlesyndication\.com url reject-200
 ^https?:\/\/stats\.tubemogul\.com\/stats\/ url reject-200
