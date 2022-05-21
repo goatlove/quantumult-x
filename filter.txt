@@ -1,5 +1,9 @@
-# Updated-2021.12.12
+# Updated-2022.05.21
 
+HOST-SUFFIX,2mdn.net,REJECT
+HOST-SUFFIX,fwmrm.net,REJECT
+HOST-SUFFIX,moatads.com,REJECT
+HOST-SUFFIX,innovid.com,REJECT
 HOST-SUFFIX,doubleclick.com,REJECT
 HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,mobileads.google.com,REJECT
@@ -9,9 +13,13 @@ HOST-SUFFIX,ehg-youtube.hitbox.com,REJECT
 HOST,adservice.google.com,REJECT
 HOST,ads.youtube.com,REJECT
 HOST,ad.youtube.com,REJECT
-HOST,blzddist1-a.akamaihd.net,DIRECT
+HOST,files.adform.net,REJECT
+HOST,ads.mopub.com,REJECT
+HOST,api.tradplusad.com,REJECT
+HOST,cddp-track.aligames.com,REJECT
 HOST,cdn.angruo.com,DIRECT
 HOST,download.jetbrains.com,DIRECT
+HOST,blzddist1-a.akamaihd.net,DIRECT
 HOST,file-igamecj.akamaized.net,DIRECT
 HOST,images-cn.ssl-images-amazon.com,DIRECT
 HOST,officecdn-microsoft-com.akamaized.net,DIRECT
@@ -265,7 +273,6 @@ HOST-SUFFIX,sina.com,DIRECT
 HOST-SUFFIX,sm.ms,DIRECT
 HOST-SUFFIX,smzdm.com,DIRECT
 HOST-SUFFIX,snapdrop.net,DIRECT
-HOST-SUFFIX,snssdk.com,DIRECT
 HOST-SUFFIX,snwx.com,DIRECT
 HOST-SUFFIX,sogo.com,DIRECT
 HOST-SUFFIX,sogou.com,DIRECT
@@ -360,6 +367,20 @@ HOST-SUFFIX,icloud.com,DIRECT
 HOST-SUFFIX,icloud.com.cn,DIRECT
 HOST-SUFFIX,me.com,DIRECT
 HOST-SUFFIX,mzstatic.com,DIRECT
+HOST-SUFFIX,byteoversea.com,PROXY
+HOST-SUFFIX,ibytedtos.com,PROXY
+HOST-SUFFIX,ibyteimg.com,PROXY
+HOST-SUFFIX,ipstatp.com,PROXY
+HOST-SUFFIX,muscdn.com,PROXY
+HOST-SUFFIX,musical.ly,PROXY
+HOST-SUFFIX,sgpstatp.com,PROXY
+HOST-SUFFIX,snssdk.com,PROXY
+HOST-SUFFIX,tik-tokapi.com,PROXY
+HOST-SUFFIX,tiktok.com,PROXY
+HOST-SUFFIX,tiktokcdn.com,PROXY
+HOST-SUFFIX,tiktokv.com,PROXY
+HOST-KEYWORD,-tiktokcdn-com,PROXY
+USER-AGENT,TikTok*,PROXY
 HOST-SUFFIX,scdn.co,PROXY
 HOST-SUFFIX,line.naver.jp,PROXY
 HOST-SUFFIX,line.me,PROXY
