@@ -1,4 +1,4 @@
-# Updated-2022.05.21
+# Updated-2022.06.02
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
@@ -24,6 +24,11 @@ HOST,file-igamecj.akamaized.net,DIRECT
 HOST,images-cn.ssl-images-amazon.com,DIRECT
 HOST,officecdn-microsoft-com.akamaized.net,DIRECT
 HOST,speedtest.macpaw.com,DIRECT
+HOST-SUFFIX,cloudflare-dns.com,DIRECT
+HOST-SUFFIX,aliyuncs.com,DIRECT
+HOST-SUFFIX,appsflyer.com,DIRECT
+HOST-SUFFIX,amplitude.com,DIRECT
+HOST-SUFFIX,onesignal.com,DIRECT
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,baidubcr.com,DIRECT
 HOST-SUFFIX,bdstatic.com,DIRECT
