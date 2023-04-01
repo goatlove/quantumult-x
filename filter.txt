@@ -1,4 +1,4 @@
-# Updated-2022.06.02
+# Updated-2023.04.01
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
@@ -24,6 +24,13 @@ HOST,file-igamecj.akamaized.net,DIRECT
 HOST,images-cn.ssl-images-amazon.com,DIRECT
 HOST,officecdn-microsoft-com.akamaized.net,DIRECT
 HOST,speedtest.macpaw.com,DIRECT
+USER-AGENT,OKX*,DIRECT
+USER-AGENT,OKEx*,DIRECT
+HOST-SUFFIX,okx.com,DIRECT
+HOST-SUFFIX,okex.com,DIRECT
+HOST-SUFFIX,okx-dv.net,DIRECT
+HOST-KEYWORD,okx-dns,DIRECT
+HOST-SUFFIX,coinall.ltd,DIRECT
 HOST-SUFFIX,cloudflare-dns.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 HOST-SUFFIX,appsflyer.com,DIRECT
@@ -480,8 +487,6 @@ HOST-SUFFIX,blogsmithmedia.com,PROXY
 HOST-SUFFIX,box.net,PROXY
 HOST-SUFFIX,bloomberg.com,PROXY
 HOST-SUFFIX,cl.ly,PROXY
-HOST-SUFFIX,cloudfront.net,PROXY
-HOST-SUFFIX,cloudflare.com,PROXY
 HOST-SUFFIX,cocoapods.org,PROXY
 HOST-SUFFIX,dribbble.com,PROXY
 HOST-SUFFIX,dropbox.com,PROXY
