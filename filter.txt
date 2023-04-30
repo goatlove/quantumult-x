@@ -1,4 +1,4 @@
-# Updated-2023.04.01
+# Updated-2023.04.30
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
@@ -38,6 +38,7 @@ HOST-SUFFIX,appsflyer.com,DIRECT
 HOST-SUFFIX,amplitude.com,DIRECT
 HOST-SUFFIX,onesignal.com,DIRECT
 HOST-SUFFIX,appcenter.ms,DIRECT
+HOST-SUFFIX,intercom.io,DIRECT
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,baidubcr.com,DIRECT
 HOST-SUFFIX,bdstatic.com,DIRECT
