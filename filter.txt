@@ -1,4 +1,4 @@
-# Updated-2023.04.30
+# Updated-2023.05.17
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
@@ -26,10 +26,13 @@ HOST,officecdn-microsoft-com.akamaized.net,DIRECT
 HOST,speedtest.macpaw.com,DIRECT
 USER-AGENT,OKX*,DIRECT
 USER-AGENT,OKEx*,DIRECT
-HOST-SUFFIX,okx.com,DIRECT
-HOST-SUFFIX,okex.com,DIRECT
+HOST-SUFFIX,okx.com,PROXY
+HOST-SUFFIX,okex.com,PROXY
+HOST-SUFFIX,okcoin.com,PROXY
 HOST-KEYWORD,okx-dv,DIRECT
 HOST-KEYWORD,okx-dns,DIRECT
+HOST-SUFFIX,intercom.io,DIRECT
+HOST-SUFFIX,intercomcdn.com,DIRECT
 HOST-SUFFIX,coinall.ltd,DIRECT
 HOST-SUFFIX,cloudflare-dns.com,DIRECT
 HOST-SUFFIX,cloudfront.net,DIRECT
@@ -38,7 +41,6 @@ HOST-SUFFIX,appsflyer.com,DIRECT
 HOST-SUFFIX,amplitude.com,DIRECT
 HOST-SUFFIX,onesignal.com,DIRECT
 HOST-SUFFIX,appcenter.ms,DIRECT
-HOST-SUFFIX,intercom.io,DIRECT
 HOST-SUFFIX,baidu.com,DIRECT
 HOST-SUFFIX,baidubcr.com,DIRECT
 HOST-SUFFIX,bdstatic.com,DIRECT
