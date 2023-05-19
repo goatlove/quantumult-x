@@ -39,7 +39,7 @@ hostname = api.m.jd.com,trade-acs.m.taobao.com,api.weibo.cn,mapi.weibo.com,wbapp
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.*(ptracking|initplayback|&oad) url reject-200
 ^https?:\/\/.+\.googleapis\.com\/(adsmeasurement|.+ad_break) url reject-200
 ^https?:\/\/.+\.youtube\.com\/(ptracking|get_midroll|pagead\/|ads\/|pcs\/.+&ad_cpn) url reject-200
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/(ads\?ver|qoe\?adcontext|watchtime\?adformat) url reject-200
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/(atr\?docid|ads\?ver|qoe\?adcontext|watchtime\?adformat) url reject-200
 ^https?:\/\/(pagead[0-9]*|tpc|ade)\.googlesyndication\.com url reject-200
 
 # Youku
