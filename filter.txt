@@ -1,4 +1,4 @@
-# Updated-2023.05.17
+# Updated-2024.05.20
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
