@@ -1,4 +1,4 @@
-# Updated-2024.05.20
+# Updated-2024.06.01
 
 HOST-SUFFIX,2mdn.net,REJECT
 HOST-SUFFIX,fwmrm.net,REJECT
@@ -36,6 +36,8 @@ HOST-SUFFIX,intercomcdn.com,DIRECT
 HOST-SUFFIX,coinall.ltd,DIRECT
 HOST-SUFFIX,cloudflare-dns.com,DIRECT
 HOST-SUFFIX,cloudfront.net,DIRECT
+HOST,www.aicoin.com,PROXY
+HOST-SUFFIX,aicoin.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
 HOST-SUFFIX,appsflyer.com,DIRECT
 HOST-SUFFIX,amplitude.com,DIRECT
